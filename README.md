@@ -13,3 +13,6 @@ The project follows the Medallion (Lakehouse) Architecture to ensure data integr
 **Silver (Cleaned)**: Data transformation using SQL and Python (Snowpark) to handle currency symbol removal, data type casting, and deduplication.  
 **Gold (Aggregated)**: Creation of a unified V_FORECAST_INPUT view, aggregating transactions into daily revenue totals optimized for time-series analysis.
 
+![Medallion Architecture](./img/medallion-sf.png)
+
+![Lineage](./img/lineage-view.png)
